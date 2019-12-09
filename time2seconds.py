@@ -3,7 +3,7 @@ def time2seconds(time):
     Args:
         time (str): "03:05:11"
     Returns
-        minutes (int):11111
+        seconds (int):11111
     """
     if type(time) is int:
         raise TypeError("a string is required (got type int)")
